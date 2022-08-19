@@ -1,0 +1,16 @@
+# Bài ôn tập: Hãy thực hiện những yêu cầu sau với R-core dataframe và/ hoặc Tidyverse
+1. Cho dữ liệu mtcars cho sẵn trong R datasets. 
+Đọc dữ liệu. 
+Hiển thị thông tin một số dòng đầu của dữ liệu. 
+In thông tin thống kê chung.
+2. Tạo sub_data chỉ có các thông tin mpg, hp, wt, gear
+3. Tạp cột mới km_per_litre trong sub_data theo công thức: 1 mpg = 0.425 km/l
+4. Tạo sub_data_unique lấy từ mtcars nhưng loại bỏ các dòng trùng (dùng distinct())
+5. In sub_data_unique với giá trị được sắp xếp giảm dần theo mpg, tăng dần theo hp
+6. Lọc các xe mà trong tên xe có 'Mazda' trong sub_data_unique. 
+Có bao nhiêu xe thỏa điều kiện này?
+7. Trong sub_data_unique, cho biết giá trị mpg lớn nhất? 
+Có những dòng dữ liệu nào có mpg = mpg lớn nhất, in kết quả.
+8. Lọc các dữ liệu thỏa các điểu kiện sau: mpg >= 25 và cyl=4 và gear=4
+9. Thực hiện việc thống kê theo cyl, từ đó cho biết số lượng từng nhóm, cyl, hp lớn nhất, mpg nhỏ nhất
+10. Trong sub_data, cho biết xe nào có km_per_litre lớn nhất, nhỏ nhất?

@@ -1,0 +1,3 @@
+http://www.w3schools.com/xml/cd_catalog.xml
+
+http://phuong13021982.pythonanywhere.com/mystore/product_service/
