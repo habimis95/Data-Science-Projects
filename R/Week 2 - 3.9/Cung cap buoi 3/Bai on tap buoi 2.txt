@@ -1,0 +1,8 @@
+# Bài ôn tập
+### Viết chương trình cho phép người dùng:
+1.  Nhập vào một số n với điều kiện sau: 10<=n<=20. Nếu số người dùng nhập không thỏa điều kiện thì thông báo cho người dùng biết và yêu cầu nhập lại. Nêu thỏa điều kiện thì qua 2.
+2. Tạo một dãy số v1 có n số mà mỗi số là một số ngẫu nhiên từ 1 đến 10.
+3. Viết một function tạo dãy số mới v2 từ dãy số v1 nói trên theo điều kiện sau: phần tử đầu tiên và cuối cùng của v2 bằng v1, các phần tử khác thì v2[i] = v1[1] + v1[i-1] + v1[i+1] nếu cả v1[i-1] và v1[i+1] cùng chẵn hoặc cùng lẻ, ngược lại v2[i] = v1[i].
+4. Gọi function vừa viết và in kết quả v2.
+5. Viết function Cho biết trong một dãy số có số chính phương nào hay không?
+6. Gọi function vừa viết với input là v2 và in kết quả.
