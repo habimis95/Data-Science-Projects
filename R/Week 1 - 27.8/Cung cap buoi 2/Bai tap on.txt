@@ -1,0 +1,8 @@
+# Bài tập ôn buổi 1
+#### Viết chương trình cho phép người dùng:
+- Nhập vào một chuỗi. In chuỗi.
+- Nhập vào một ký tự. In ký tự.
+- Tạo chuỗi mới từ chuỗi đã có trong đó tất cả các ký tự đã nhập ở trên đều được in hoa
+- Nhập vào một chuỗi. In chuỗi
+- Tách chuỗi đã nhập thành danh sách các phần tử.
+- Tìm xem chuỗi vừa nhập có là phần tử nào trong danh sách phần tử trên hay không? Nêu tìm thấy thì thông báo là "Found!!!" ngược lại thì thông báo là "Not found!!!"
