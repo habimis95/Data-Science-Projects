@@ -1,0 +1,28 @@
+import findspark
+findspark.init()
+
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
+from pyspark.ml.linalg import Vectors
+from pyspark.ml.feature import VectorAssembler
+from pyspark.ml.feature import StandardScaler
+from pyspark.ml.clustering import KMeans
+from pyspark.ml.fpm import FPGrowth
+from pyspark.ml.evaluation import RegressionEvaluator
+from pyspark.ml.recommendation import ALS
+
+import pyspark.sql.functions as f
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+spark = SparkSession.builder.appName('kmeans_demo').getOrCreate()
+
+
+# Loads data.
+data = spark.read.csv("5000_points.txt", header=False,
+                      inferSchema=True, sep="\t")
+
+

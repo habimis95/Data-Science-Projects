@@ -1,0 +1,11 @@
+Cấu hình máy master -  PySpark
+Vào C:\spark\spark-2.4.4-bin-hadoop2.7\conf\
+Copy file và đổi tên thành:
+C:\spark\spark-2.4.4-bin-hadoop2.7\conf\spark-defaults.conf.template
+=>
+C:\spark\spark-2.4.4-bin-hadoop2.7\conf\spark-defaults.conf
+
+Sau đó, mở file cấu hình này, thêm:
+spark.driver.memory              	10g
+spark.network.timeout		10000000
+spark.executor.heartbeatInterval	10000000
