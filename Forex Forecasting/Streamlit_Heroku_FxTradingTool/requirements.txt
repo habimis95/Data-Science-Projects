@@ -9,8 +9,7 @@ keras
 fxcmpy
 python-engineio==3.13.0
 python-socketio==4.4.0
-
 fbprophet==0.6
-numpy==1.18.4
+numpy>=1.22
 streamlit==0.60.0
 pandas==1.0.3
